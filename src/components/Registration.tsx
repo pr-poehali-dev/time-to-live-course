@@ -8,10 +8,12 @@ const Registration = () => {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Начните свой путь к выздоровлению
+            Присоединяйтесь к курсу "Время жить"
           </h2>
-          <p className="text-xl text-gray-600">
-            Заполните форму, и я свяжусь с вами в течение 24 часов
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
+            Если вы ищете поддержку и желаете поделиться своим опытом или просто
+            хотите получить полезные советы, я вас приглашаю присоединиться к
+            курсу "Время жить". Мы вместе сможем сделать этот путь легче!
           </p>
         </div>
 
@@ -54,7 +56,7 @@ const Registration = () => {
                 size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white px-12 py-4 text-lg"
               >
-                Записаться на курс
+                Присоединиться к курсу
               </Button>
               <p className="text-sm text-gray-500 mt-4">
                 Нажимая кнопку, вы соглашаетесь с условиями обработки
